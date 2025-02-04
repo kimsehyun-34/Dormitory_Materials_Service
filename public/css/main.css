@@ -1,0 +1,26 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+.body {
+    background-color: #f0f8ff; /* 밝은 하늘색 */
+    font-family: "Pretendard Variable", Pretendard;
+}
+
+.bg-dark {
+    background-color: #ffffff !important; /* 흰색 */
+    color: #000000 !important; /* 검은색 */
+}
+
+.bg-light-subtle {
+    background-color: #e0f7fa !important; /* 밝은 청록색 */
+    color: #000000 !important; /* 검은색 */
+}
+
+.bg-light {
+    background-color: #e0f7fa !important; /* 밝은 청록색 */
+    color: #000000 !important; /* 검은색 */
+}
+
+.bg-primary {
+    background-color: #ffeb3b !important; /* 밝은 노란색 */
+    color: #000000 !important; /* 검은색 */
+}

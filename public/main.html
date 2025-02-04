@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/ficon.png">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="bg-light text-dark">
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">기숙사 준비물 리스트</h1>
+        <div class="accordion" id="checklistAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingBedding">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBedding" aria-expanded="true" aria-controls="collapseBedding">
+                        침구류
+                    </button>
+                </h2>
+                <div id="collapseBedding" class="accordion-collapse collapse show" aria-labelledby="headingBedding" data-bs-parent="#checklistAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 토퍼</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 깔개</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 이불</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 베개</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingToiletries">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseToiletries" aria-expanded="false" aria-controls="collapseToiletries">
+                        세면용품
+                    </button>
+                </h2>
+                <div id="collapseToiletries" class="accordion-collapse collapse" aria-labelledby="headingToiletries" data-bs-parent="#checklistAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 클렌징폼</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 샴푸</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 바디워시</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 샤워타올</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 치약</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 칫솔</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 양치컵</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 치실</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 비누</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 세면대/샤워기 필터</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingBeauty">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBeauty" aria-expanded="false" aria-controls="collapseBeauty">
+                        미용용품
+                    </button>
+                </h2>
+                <div id="collapseBeauty" class="accordion-collapse collapse" aria-labelledby="headingBeauty" data-bs-parent="#checklistAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 바디로션</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 로션</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 썬크림</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 색조 화장품</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 클렌징 오일/워터</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 빗</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 머리끈</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingDocuments">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDocuments" aria-expanded="false" aria-controls="collapseDocuments">
+                        서류/기타
+                    </button>
+                </h2>
+                <div id="collapseDocuments" class="accordion-collapse collapse" aria-labelledby="headingDocuments" data-bs-parent="#checklistAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 수납함</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 결핵검사지</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 통장사본</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 텀블러</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 1,000원 현금 (세탁기 사용시 필요, 1회 비용 = 1천원)</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 지갑</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingLaundry">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLaundry" aria-expanded="false" aria-controls="collapseLaundry">
+                        세탁/청소
+                    </button>
+                </h2>
+                <div id="collapseLaundry" class="accordion-collapse collapse" aria-labelledby="headingLaundry" data-bs-parent="#checklistAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 세탁세제</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 빨래비누</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 빨래바구니</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 세탁망</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 섬유유연제</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 휴지</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 욕실 슬리퍼</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 물티슈</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 테이프 클리너</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 휴지통</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingElectronics">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseElectronics" aria-expanded="false" aria-controls="collapseElectronics">
+                        전자기기
+                    </button>
+                </h2>
+                <div id="collapseElectronics" class="accordion-collapse collapse" aria-labelledby="headingElectronics" data-bs-parent="#checklistAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 멀티탭</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 태블릿</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 노트북</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 충전선</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 거치대</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 이어폰/헤드셋</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> USB</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 워치 충전기</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 보조 배터리</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> C타입 랜 커넥터</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 랜선</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingStationery">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStationery" aria-expanded="false" aria-controls="collapseStationery">
+                        문구류
+                    </button>
+                </h2>
+                <div id="collapseStationery" class="accordion-collapse collapse" aria-labelledby="headingStationery" data-bs-parent="#checklistAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 클립보드</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> A4 용지</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 필통</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 북스탠드</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 노트</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingMedicine">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMedicine" aria-expanded="false" aria-controls="collapseMedicine">
+                        약품
+                    </button>
+                </h2>
+                <div id="collapseMedicine" class="accordion-collapse collapse" aria-labelledby="headingMedicine" data-bs-parent="#checklistAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 반창고 & 기초 약품</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 파스</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 진통제</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 소화제</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 벌레 퇴치제</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingClothing">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseClothing" aria-expanded="false" aria-controls="collapseClothing">
+                        의류
+                    </button>
+                </h2>
+                <div id="collapseClothing" class="accordion-collapse collapse" aria-labelledby="headingClothing" data-bs-parent="#checklistAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-group">
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 상의</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 하의</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 신발</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 슬리퍼</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 액세서리</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 양말</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 속옷</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 겉옷</li>
+                            <li class="list-group-item bg-light text-dark"><input class="form-check-input me-1" type="checkbox"> 잠옷</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-light text-dark text-center py-3 mt-5">
+        <p>강원대학교 삼척 기숙사 36대 관생자치회</p>
+        <p>페이지 운영기간 : 2025년 2월10일 ~ 3월4일</p>
+        <a href="https://www.instagram.com/knu_samdorm36/" target="_blank" class="btn btn-outline-dark">
+            <i class="bi bi-instagram"></i> 관생자치회 인스타그램
+        </a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            
+            checkboxes.forEach(checkbox => {
+                const savedState = getCookie(checkbox.parentElement.textContent.trim());
+                if (savedState === 'true') {
+                    checkbox.checked = true;
+                }
+            });
+
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function() {
+                    setCookie(checkbox.parentElement.textContent.trim(), checkbox.checked, 365);
+                });
+            });
+        });
+
+        function setCookie(name, value, days) {
+            const d = new Date();
+            d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + d.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/";
+        }
+
+        function getCookie(name) {
+            const cname = name + "=";
+            const decodedCookie = decodeURIComponent(document.cookie);
+            const ca = decodedCookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(cname) == 0) {
+                    return c.substring(cname.length, c.length);
+                }
+            }
+            return "";
+        }
+    </script>
+</body>
+</html>
