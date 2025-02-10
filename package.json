@@ -1,7 +1,7 @@
 {
   "name": "domit_check",
   "version": "1.0.0",
-  "description": "",
+  "description": "기숙사 자치회_ 준비물 리스트 페이지",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,13 @@
     "express": "^4.21.2",
     "nodemon": "^3.1.9",
     "save": "^2.9.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimsehyun-34/Dormitory_Materials_Service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kimsehyun-34/Dormitory_Materials_Service/issues"
+  },
+  "homepage": "https://github.com/kimsehyun-34/Dormitory_Materials_Service#readme"
 }
